@@ -18,16 +18,25 @@ Visual components and Python.
     </td>
   </tr>
 </table>
+<table>
+<tr>
+<td width=50%>
 
 ### Experiment:
-<img height=15% width=40% src="https://github.com/ROHITJAIND/EX-06-Open-Jacson-Networks/assets/118707073/b585b5ec-f497-4fb9-b8c1-18126bc69128">
+<img src="https://github.com/ROHITJAIND/EX-06-Open-Jacson-Networks/assets/118707073/b585b5ec-f497-4fb9-b8c1-18126bc69128">
 
-### Program :
+</td>
+<td>
+  
 ```
 Developed By: ROHIT JAIN D
 Register No: 212222230120
 ```
+</td>
+</tr>
+</table>
 
+### Program :
 ```Python
 arr_time=float(input("Enter the mean inter arrival time of objects from Feeder (in secs): "))
 ser_time1=float(input("Enter the mean  inter service time of Lathe Machine 1 (in secs) :  "))
@@ -69,6 +78,10 @@ print("----------------------------------------------------------------------")
 ```
 
 ### Output :
+<table border=5>
+<tr>
+<td>
+
 ```C
 Enter the mean inter arrival time of objects from Feeder (in secs): 12
 Enter the mean  inter service time of Lathe Machine 1 (in secs) :  1
@@ -90,5 +103,9 @@ Average waiting time of an object in the conveyor S2 : 20.64 secs
 Average waiting time of an object in the conveyor S3 : 18.62 secs
 ----------------------------------------------------------------------
 ```
+</td>
+</tr>
+</table>
+
 ### Result :
 The average number of material in the sysytem and in the conveyor and waiting time are successfully found.
